@@ -1,5 +1,3 @@
-const remove = val => {
-  console.log('val', val)
+module.exports = function(val) {
+  console.log('this.root', this.root)
 }
-
-module.exports = remove
